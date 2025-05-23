@@ -271,7 +271,7 @@ export default function LoginScreen() {
               <ThemedText style={[styles.label, { color: iconColor }]}>Tên đăng nhập</ThemedText>
               <TextInput
                 style={[styles.input, { backgroundColor: inputBackgroundColor, color: textColor, borderColor: iconColor + '40' }]}
-                placeholder="Nhập tên đăng nhập"
+                placeholder="Nhập tên đăng nhập (login)"
                 placeholderTextColor={iconColor}
                 value={username}
                 onChangeText={setUsername}
